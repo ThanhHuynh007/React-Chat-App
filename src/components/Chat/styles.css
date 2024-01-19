@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Reset some default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full screen container with flex properties */
+.landing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Image Styling */
+.bgEffectLight {
+    background-image: url(../../assets/landingBgLight.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bgEffect {
+    background-image: url(../../assets/landingBg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Centered content */
+.center-content {
+    text-align: center;
+    color: white;
+    /* Change text color as needed */
+}
+
+/* Circular image styling */
+.rounded-image {
+    width: 150px;
+    /* Adjust as needed */
+    height: 150px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.landing-heading {
+    font-size: 3rem;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+/* Paragraph styling */
+.landing-paragraph {
+    font-size: 1rem;
+    margin: 8px 0;
+}
